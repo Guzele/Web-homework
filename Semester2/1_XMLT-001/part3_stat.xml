@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--author: Garifullina Guzel-->
+<!-- task link  https://kodaktor.ru/g/xml_intro-->
+
+
+<!DOCTYPE site SYSTEM "part3_stat.dtd">
+
+<site url="vk.com ">
+    <stat>
+        <Windows>
+            <ip addr="083.102.198.041" frequency="1"/>
+        </Windows>
+        <Linux>
+            <ip addr="077.234.203.101" frequency="2"/>
+        </Linux>
+        <MacOS>
+            <ip addr="094.025.228.067" frequency="3"/>
+        </MacOS>
+        <IPhone>
+            <ip addr="094.025.228.067" frequency="3"/>
+            <ip addr="094.025.228.069" frequency="4"/>
+        </IPhone>
+    </stat>
+    <ips>
+        <ip addr="083.102.198.041" frequency="10"/>
+        <ip addr="083.102.198.042" frequency="7"/>
+        <ip addr="083.102.198.043" frequency="6"/>
+        <ip addr="083.102.198.046" frequency="5"/>
+        <ip addr="083.102.198.048" frequency="2"/>
+
+    </ips>
+</site>
+

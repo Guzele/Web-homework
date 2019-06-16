@@ -1,0 +1,12 @@
+
+<!--author: Garifullina Guzel
+    task link  https://kodaktor.ru/g/xml_intro
+-->
+
+        <!ELEMENT myPortfolio (myCompetencies)>
+        <!ELEMENT myCompetencies (competency)*>
+        <!ELEMENT competency EMPTY>
+        <!ATTLIST competency in CDATA #REQUIRED>
+        <!ATTLIST competency value CDATA #REQUIRED>
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--author: Garifullina Guzel-->
+<!-- task link  https://kodaktor.ru/g/xml_intro-->
+<!DOCTYPE myPortfolio SYSTEM "part2.dtd">
+
+<myPortfolio>
+    <myCompetencies>
+        <competency in="HTML" value="Intermediate"/>
+        <competency in="CSS" value="Intermediate"/>
+        <competency in="Javascript" value="Beginner"/>
+        <competency in="MVC ASP.NET" value="Proficient"/>
+        <competency in="MS SQL" value="Proficient"/>
+        <competency in="MongoDb" value="Proficient"/>
+    </myCompetencies>
+</myPortfolio>

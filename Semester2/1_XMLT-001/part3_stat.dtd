@@ -1,0 +1,23 @@
+
+<!--author: Garifullina Guzel
+    task link  https://kodaktor.ru/g/xml_intro
+-->
+        <!ELEMENT site (stat, ips)>
+        <!ATTLIST site url CDATA #REQUIRED>
+
+        <!ELEMENT stat (Windows, Linux, MacOS, IPhone )>
+
+        <!ELEMENT Windows (ip)*>
+        <!ELEMENT Linux (ip)*>
+        <!ELEMENT MacOS (ip)*>
+        <!ELEMENT IPhone (ip)*>
+
+        <!ELEMENT ips (ip)*>
+        <!ELEMENT ip  EMPTY>
+        <!ATTLIST ip addr CDATA #REQUIRED>
+        <!ATTLIST ip frequency CDATA #REQUIRED>
+
+
+        <!ELEMENT competency EMPTY>
+        <!ATTLIST competency in CDATA #REQUIRED>
+        <!ATTLIST competency value CDATA #REQUIRED>
