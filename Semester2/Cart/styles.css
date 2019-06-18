@@ -1,0 +1,79 @@
+html,body { height:100%; }
+.product {
+    float: left;
+    width: 20%;
+    background-color: pink;
+    border:1px solid black;
+    margin: 0.5%;
+
+
+}
+
+.product * {
+    text-align: center;
+}
+.product p {
+    display: block;
+
+}
+.product img {
+    padding-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    pointer-events: none;
+}
+.product button {
+    pointer-events:
+}
+#cart {
+    float: right;
+    width: 35%;
+    display: block;
+    border:1px solid black;
+    background-color: bisque;
+    min-height:100%;
+    bottom:0;
+}
+#cart div, h2{
+    padding-left: 5%;
+}
+table {
+    border: 1px solid black;
+    table-layout: fixed;
+}
+
+table tr th{
+    align: right;
+    border: 1px solid grey;
+    background-color: pink;
+}
+table tr th[field="num"]{
+    width : 10%;
+}
+table tr th[field="image"]{
+    width : 30%;
+}
+table tr th[field="image"] img{
+    width : 95%;
+    pointer-events: none;
+}
+table tr th[field="name"]{
+    width : 10%;
+}
+
+table tr th[field="quantity"]{
+    width : 5%;
+}
+table tr th[field="price"]{
+    width : 10%;
+}
+
+table tr th[field="delete"]{
+    width : 5%;
+}
+
+#cartcontent{
+    height:auto;
+}
