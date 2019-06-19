@@ -1,0 +1,35 @@
+//https://kodaktor.ru/js01_intro_lr.pdf
+
+2. 
+node-v
+v11.10.0
+
+3. 
+node-e"console.log(process.versions.v8)"
+7.0.276.38-node.17
+
+chrome://version
+JavaScript	V8 7.2.502.28	
+
+4. undefined
+
+The global undefined property represents the primitive value undefined. It is one of JavaScript's primitive types
+A variable that has not been assigned a value is of type undefined
+
+In the console you can type a name of a variable (for example try typing window) and it prints info about it. When you run any void function (like console.log) from the console, it also prints out info about the return value, undefined in this case.
+ 
+5.
+// evaluates script
+node -e "console.log('Hello, world');"
+'Hello, world'
+
+//evaluates script and prints return value (last value)
+node -p "console.log('Hello, world');"
+'Hello, world'
+undefined
+
+6.
+not defined variable - not declared, error of compilation(execution?)
+undefined - not diffend (without assigned value)
+
+
