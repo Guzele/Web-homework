@@ -1,3 +1,5 @@
+//Made by Guzel Garifullina
+
 function createProductNode (product){
     //DOM creation of product
     let prod = document.createElement("div");
