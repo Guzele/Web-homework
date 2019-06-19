@@ -1,3 +1,4 @@
+//Made by Guzel Garifullina
 
 const tern = (
     x => (x < 18) ? 'yes': (x == 18)? 'notsure' : 'no');
